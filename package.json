@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-zeros3d",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create a zero-filled three-dimensional nested array.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-filled3d": "github:stdlib-js/array-base-filled3d#main",
+    "@stdlib/array-base-filled3d": "^0.0.1",
     "@stdlib/types": "^0.0.14"
   },
   "devDependencies": {
