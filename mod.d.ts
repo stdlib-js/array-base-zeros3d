@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,25 +16,31 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection } from '@stdlib/types/array';
+import { Shape3D } from '@stdlib/types/ndarray';
 
 /**
-* Create a zero-filled three-dimensional nested array.
+* Three-dimensional nested array.
+*/
+type Array3D<T> = Array<Array<Array<T>>>;
+
+/**
+* Returns a zero-filled three-dimensional nested array.
 *
-* @module @stdlib/array-base-zeros3d
+* @param shape - array shape
+* @returns output array
 *
 * @example
-* var zeros3d = require( '@stdlib/array-base-zeros3d' );
-*
 * var out = zeros3d( [ 1, 1, 3 ] );
 * // returns [ [ [ 0.0, 0.0, 0.0 ] ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function zeros3d( shape: Shape3D ): Array3D<number>;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = zeros3d;
