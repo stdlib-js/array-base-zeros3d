@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import zeros3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros3d@esm/index.mjs';
+import zeros3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros3d@v0.2.1-esm/index.mjs';
 ```
 
 #### zeros3d( shape )
@@ -90,7 +90,7 @@ var out = zeros3d( [ 1, 2, 3 ] );
 <body>
 <script type="module">
 
-import zeros3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros3d@esm/index.mjs';
+import zeros3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros3d@v0.2.1-esm/index.mjs';
 
 var out = zeros3d( [ 1, 1, 3 ] );
 // returns [ [ [ 0.0, 0.0, 0.0 ] ] ]
